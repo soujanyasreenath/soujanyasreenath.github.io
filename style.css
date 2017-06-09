@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background: #eeeeee;
+}
+
+hr {
+  margin: 10px 0px;
+  background: #ccc;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 5px: 
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-14 {
+  font-size: 14px;
+}
+
+.col-black {
+  color: #000;
+}
+
+.col-808080 {
+  color: #808080;
+}
+
+.col-orange {
+  color: #e48200;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.main-body-container {
+  width: 980px;
+  text-align: center;
+  margin: 15px auto;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 2px #ccc;
+}
+.display-flexbox-row {
+  display: flex;
+  display: -webkit-flex;
+  display: flexbox;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+.display-flexbox-column {
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.each-header {
+  margin-bottom: 10px;
+}
+
+.skill-tag {
+  -webkit-box-shadow: 0 1px 1px #ccc;
+  -moz-box-shadow: 0 1px 1px #ccc;
+  box-shadow: 0 1px 1px #ccc;
+  -webkit-transition: all 0.07s;
+  -moz-transition: all 0.07s;
+  -o-transition: all 0.07s;
+  transition: all 0.07s;
+  display: inline-block;
+  border: 0;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333333;
+  font-weight: normal;
+  background: #f1f1f1;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 5px;
+}
+.left-section {
+  width: 65%;
+  float: left;
+}
+.company-name {
+  float: left;
+}
+.company-exp {
+  float: right;
+}
+.experience-section-each {
+  margin: 10px 0px;
+}
+.company-content ul {
+  padding: 10px 16px;
+  color: #555;
+  line-height: 22px;
+}
