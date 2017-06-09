@@ -22,7 +22,8 @@ a {
 }
 
 p {
-  margin-bottom: 5px: 
+  margin-bottom: 5px;
+  line-height: 21px;
 }
 .pull-left {
   float: left;
