@@ -138,6 +138,13 @@ p {
   width: 65%;
   float: left;
 }
+.right-section {
+  width: 32.5%;
+  margin: 0px 0px 0px 1%;
+  padding-left: 1%; 
+  float: right;
+  border-left: 1px dotted #ccc;
+}
 .company-name {
   float: left;
 }
@@ -151,4 +158,23 @@ p {
   padding: 10px 16px;
   color: #555;
   line-height: 22px;
+}
+
+.print-this {
+  position: fixed; 
+  bottom: 5%; 
+  right: 5%; 
+  background: #fff; 
+  padding: 15px 10px 5px 10px; 
+  border-radius: 50%; 
+  box-shadow: 0px 0px 4px 3px #ccc; 
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+@media print {
+  .print-this {
+    display: none;
+  }
 }
