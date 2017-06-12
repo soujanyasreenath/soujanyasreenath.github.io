@@ -173,9 +173,12 @@ p {
   height: 30px;
   display: block;
 }
+.web-only {
+  margin: 15px 0px; 
+}
 
 @media print {
-  .print-this {
+  .print-this, .web-only {
     display: none;
   }
 }
